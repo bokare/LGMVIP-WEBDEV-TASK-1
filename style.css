@@ -1,0 +1,146 @@
+ 
+   
+  
+ *{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+height: 100vh;
+display: grid;
+place-items: center;
+background-color: #4e2a7e;
+}
+
+.container {
+height: 400px;
+width: 40%;
+min-width: 450px;
+position: absolute;
+padding: 30px 20px;
+justify-content: space-between;
+
+
+
+}
+h1{
+  padding-bottom: 50px;
+}
+
+.title{
+width: 100%; height: 70px;
+background:none;
+color: rgb(150, 50, 163);
+display: grid;
+place-items: center;
+margin-bottom: 10px;
+
+}
+ 
+.input-box{
+top: 90px;
+position: absolute;
+font-size: 16px;
+left: 20px;
+height: 45px;
+border:none;
+width: 70%;
+border-bottom: 2px solid rgb(182, 172, 180);
+outline: none;
+background: transparent;
+padding: 30px 20px;
+color: rgba(32, 34, 161, 0.993);
+background-color: aliceblue;
+border-radius: 5px;
+margin-bottom: 10px;
+justify-content: space-between;
+}
+
+.line{
+position: absolute;
+top: 155px;
+left: 20px;
+list-style: none;
+height: 120px;
+width: 100%;
+overflow: auto;
+background-color: #fff;
+margin-top: 40px;
+border-radius: 10px;
+padding: 30px,20px;
+}
+     
+.line li{
+  height: 50px;
+  
+  margin: 4px 0px;
+  color: white;
+  position: relative;
+  left: 0;
+  border-bottom: 2px solid #bf6ac7;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+
+.btn{
+width: 20%;
+height: 60px;
+position: relative;
+left: 40px;
+bottom: 20px;
+background: #823f9ca8;
+outline: none;
+color: rgb(255, 255, 255);
+border-radius:  5px;
+font-size: 16px;
+font-weight: 500;
+transition: all 0.8s ease-in;
+float: right;
+border: none;
+margin-bottom: 10px;
+justify-content: space-between;
+
+
+
+}
+
+.btn:hover{
+background: transparent;
+border: 3px solid #568cac;
+color: #45a1bd;
+font-size: 22px; border-radius: 4px;
+}
+         
+.line li h4{
+width: 320px;
+padding: 0 10px;
+display: flex;
+height: 50px; align-items: center; overflow: hidden;
+color: rgb(52, 177, 177);
+position: relative; left: 0;
+top: 0;
+}
+         
+.line li .RemovefromList{
+height : 50px;
+width: 40px;
+z-index : 999;
+display: grid;
+place-items: center;
+position: absolute;
+right: -50px;
+background:none;
+color: rgb(96, 196, 104);
+transition: 0.7 all ease-in-out;
+border-radius: 35px;
+}
+
+.line li:hover .RemovefromList{
+right: 0;
+}   
